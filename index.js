@@ -13,7 +13,7 @@ app.get('/prodotto/:codiceprodotto', (req, res) => {
     //cercare prodotto nel database con una select 
     //costruire la pagina html
     var paginawebprod = "<html><body>";
-    paginawebprod += "<div>"+req.params.codiceprodotto+"</div>";
+    paginawebprod += "<div>"+req.params.paginawebprod+"</div>";
     paginawebprod += "</body></html>"
     //res.send('Hello prodotto: '+req.params.codiceprodotto)
   })
